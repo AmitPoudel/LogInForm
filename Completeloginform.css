@@ -1,0 +1,140 @@
+
+body{
+ height: 100vh;
+ width: 100vw; 
+ background-color:blueviolet;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: url("./Man\ Image.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ position: relative;
+ padding: 0px;
+ margin: 0px ;
+}
+
+body::after{
+  contain: "";
+  content: '';
+  background-color: rgba(26, 115, 159,.3);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  
+
+}
+.Completeloginform{
+width: 400px;
+margin: 5px auto;
+padding: 40px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+background-color: white;
+position: relative;
+z-index: 1;
+border-radius: 10px;
+/* box-shadow:1px 1px 10px grey ; */
+
+}
+
+.CREATE_ACCOUNT{
+  font-size: 18px;
+  text-align:center;  
+  text-transform: uppercase;
+  color: black;
+  block-size: 20;
+  font-weight: 700;
+  margin-top: 30px;
+
+ }
+
+ .Amit_Poudel{
+   font-size: small; 
+   border-bottom: 1px solid lightgrey;
+   border-left: 1px solid lightgray;
+   border-top: 1px solid lightgrey;
+   border-right: 1px solid lightgray;
+   gap: 20px;
+   border-left: gap 10px;
+   padding:12px 4px;
+   border-radius: 5px;
+  
+ }
+
+ .Your_Email{
+  font-size: small;
+  color: gray;
+  padding:12px 4px;
+
+ }
+
+ .Password{
+  font-size: small;
+  color: gray;
+
+ }
+
+ .Repeat_your_password{
+font-size: small;
+color: gray;
+
+ }
+ .I_agree_all_statements_in_terms_of_service{
+  font-size: small;
+  color: darkgray;
+  font: display 20px;
+ }
+
+ .SIGN_UP{
+  margin: 0px auto;
+  outline:solid;  
+    cursor:pointer;
+    /* background-color:);  */
+    padding: 10px 110px;
+    background-image: linear-gradient(to left,rgba(13, 162, 142,.6),rgba(109, 210, 226, 0.6),rgba(15, 13, 162,.6));
+    color:white;
+    font-weight: 80px;
+    border-radius: 5px;
+ }
+
+ .Have_already_an_account{
+ display: flex;
+ align-items: center;
+ font-variant: small-caps;
+font-size: small;
+
+
+
+  }
+
+  .Amit_Image{
+color:black;
+height: 100px;
+width: 100px;
+border-radius: 100%;
+position: absolute;
+top: -50px;
+right: 0px;
+left: 0px;
+margin: 0px auto;
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

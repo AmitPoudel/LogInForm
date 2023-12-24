@@ -1,0 +1,116 @@
+body{
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center;
+background-image:url('./Himalaya\ Image.png') ;
+background-size: cover;
+
+}
+
+.nav{
+    display: flex;
+    gap: 20px;
+    padding: 80px;
+}
+
+
+
+.RegistrationWeb{
+background-color: white;
+border: 1px solid black;    
+width: 600px ; 
+margin: 5px auto;
+padding: 40px;
+display: flex;
+gap: 30px;
+
+
+}
+
+.divs{
+    flex: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+    
+}
+
+.LOGIN{
+font-size: 16px;
+text-align:center;  
+text-transform: uppercase;
+color: black;
+block-size: 20;
+font-weight: 600;
+}
+
+.Email{
+    font-size: small; 
+    font-style: inherit;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    gap: 20px;
+    color: gray;
+    border-left: gap 20px;
+    padding:10px 8px;
+    border-radius: 2px; 
+    outline: none;
+
+}
+
+.Password{
+    font-size: small; 
+    font-style: inherit;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid grey;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    gap: 20px;
+    color: gray;
+    border-left: gap 20px;
+    padding:10px 8px;
+    border-radius: 2px;
+    outline: none;   
+}
+.Log_In{
+    background-color: rgb(6, 146, 239);
+    color: azure;
+    display:flex;
+    justify-content: center;
+    padding: 10px 0px;
+    font-size: 15px;  
+    border-radius: 2px; 
+}
+
+.Forgot_password{
+ color: rgb(5, 142, 166);   
+}
+
+.Signup{
+color: rgb(5, 142, 166); 
+display: flex;
+
+}
+.apple{
+display: flex;    
+}
+.image{
+background-color:whitesmoke;    
+background-image: url('./Laptop\ image.jpg');
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 40px;
+color: white;
+
+}
+ 
+
+

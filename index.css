@@ -1,0 +1,119 @@
+div{
+    color:green;
+    width: 400px;
+    border: 1px solid red;
+    background-color: rgb(222, 222, 231);
+    background-color: rgb(236, 225, 225);
+    font-display: initial;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+h3{color:blue;
+
+}
+p{
+    background-color: blueviolet;
+ /* height: 300px;  */
+  /* width: 300px; */
+  border-radius: 10px;
+  border-top-right-radius: 30%;
+  border-bottom-left-radius: 30%;
+  border: 10px solid green;
+  border-top-color:yellow;
+  border-bottom:5px dotted orange;
+  border-left:none;
+  width: fit-content;
+  height: fit-content;
+  padding: 20px;
+padding-right: 40px;
+color:white;
+font-size:20px ;
+font-weight: 100;
+font-style: italic;
+text-transform:capitalize;
+text-decoration:underline;
+border-radius: 10px;
+}
+img{border-radius: 100%;
+    height: 200px;
+    border: 2px solid red;
+    width: 200px;}
+    div{color: black;
+    font-size:medium;
+}
+h3{color: black;
+    text-align: start;
+font-weight:900;}
+
+div{font-display: larger;
+font-weight: bold;
+font-style: oblique;
+border-radius: 35px;
+justify-content: center;
+text-align: center;
+text-transform:capitalize;
+margin: 0px auto;
+}
+
+
+
+h1{font-display: bold;}
+h2{font-size: xx-large;}
+h3{font-display: bold;
+font-size:xx-large;}
+
+
+
+.card{
+    margin-top: 100px;
+    padding: 10px;
+}
+
+
+.cardabc_image{
+    height: 100px;;
+    width: fit-content;
+    border-radius: 100%;
+    border-color: blue;
+    border-width:5px;
+    border-style: groove;
+    position: absolute;
+    top: -80px;
+    left:0px ;
+    right: 0px;
+    margin: 0px auto;
+    z-index: 1;
+
+}
+.card_Name{
+    font-size: large;
+    flex-direction:unset;
+    text-decoration-color: brown;
+    /* margin-top:200px; */
+    position: relative;
+    top: 100px;
+    
+}
+.card_Address{
+    font-size:large;
+    color: blue;
+}
+
+.card_Phone_Number{
+    font-size: large;
+    text-decoration-color: blueviolet;
+}
+.card_image{
+    height: 400px;
+    margin-top: 100px;
+    position: relative;
+
+}
+
+.card_Amit_Image{
+height: 100px;
+border-radius: 0px;
+border-style: dashed;
+
+}

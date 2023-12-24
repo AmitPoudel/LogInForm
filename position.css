@@ -1,0 +1,109 @@
+div{
+width: 300px;  
+margin: 0px auto ;
+background-color: white;
+display: flex;
+flex-direction: column;
+padding: 20px;
+
+
+}
+
+div img{
+color:black;
+border-radius: 100px;
+resize: both;
+mask-image: none;
+margin: 0px auto;
+}
+
+h1{
+color: black;
+font-size: small;
+text-align: center;
+}
+
+h2{
+color: black;
+font-size: small;
+border-bottom: 1px solid black;
+padding-bottom: 5px;
+
+
+}
+
+h3{
+color: black;
+font-size: small;
+border-bottom: 1px solid black;
+padding-bottom: 5px;
+
+}
+
+h4{
+color: black;
+font-size: x-small;
+offset-distance: 10px;
+
+}
+
+h5{
+color: black;   
+font-size: x-small; 
+;
+
+}
+
+.Image_amit{
+  border-radius: 100%;
+  box-shadow:1px 1px 20px 1px grey;  
+}
+
+.LOGIN{
+font-size:20px;
+
+}
+.form_rapper{
+/* border: 2px solid blueviolet; */
+box-shadow:1px 1px 10px grey;
+margin-bottom: 20px;
+border-radius: 15px;
+
+}
+
+.Username{
+font-size: smaller;
+border-bottom: 1px solid black;
+padding-bottom: 5px;
+
+}
+.Box{
+ height: 22px;
+ width: 22px; 
+ border: 1px solid black;
+ padding: 0px;
+
+
+}
+
+.Remember{
+display: flex;
+width:fit-content;
+gap: 10px;
+align-items: center;
+
+}
+
+.Forgot_Password{
+display: flex;
+justify-content: end;
+}
+.button_Login{
+background-color: blue;
+color: azure;
+display:flex;
+justify-content: center;
+padding: 10px 0px;
+font-size: 20px;
+
+}
